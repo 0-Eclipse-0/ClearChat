@@ -1,3 +1,4 @@
+<?php
 namespace lostteam\clearchat;
 
 use pocketmine\event\Listener;
