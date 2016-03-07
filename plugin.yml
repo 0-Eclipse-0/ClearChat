@@ -1,0 +1,11 @@
+name: ClearChat
+main: lostteam\clearchat\cc
+author: LostTeam
+api: 1.13.1
+version: 1.0.0
+description: "Chat Filter thatremoves advertisements and other spam"
+website: "http://github.com/LostTeam/ClearChat"
+permissions:
+  unblock.cmd:
+    default: op
+    description: "gives the player permission to not be blocked by the filter"
