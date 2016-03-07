@@ -14,7 +14,7 @@ class cc extends PluginBase implements Listener {
     $this->getLogger()->info("[ClearChat] Enabled");
   }
 
-  public function onPlayerChat(PlayerChatEvent $e){
+  public function onPlayerChat(PlayerChatEvent $event){
 
   $msg = $event->getMessage();
 
