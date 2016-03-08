@@ -9,7 +9,7 @@ use pocketmine\utils\TextFormat;
 class cc extends PluginBase implements Listener {
 
     public function onEnable(){
-        $this->getServer()->getPluginManager()->registerEvents($this, $this);
+        $this->getServer()->getPluginManager()->registerEvents($this, $this);
         $this->getLogger()->info("[ClearChat] Enabling...");
         $this->getLogger()->info("[ClearChat] Enabled");
     }
