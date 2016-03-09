@@ -20,7 +20,7 @@ class cc extends PluginBase implements Listener {
 
         $cursewords = array("fuck","fu","ck","fuc","uck","fu*k","f*ck","shit","poop","stupid","dumb","noob","anal","anus","arse","ass","ballsack","bastard","bitch","biatch","blowjob","blow job","boner","boob","butt","buttplug","cock","crap","cunt","dick","dildo"," dyke","Goddamn","God damn","homo","jerk","nigger","nigga","omg","penis","piss","pussy","queer","scrotum","sex","s hit","sh1t","slut","vagina","wank","whore","::");
         
-        $advertwords = array(".leet","leet.",".cc","a1","a2","a3","a4","a5","a6","a7","a8","a9","b1","b2","b3","b4","b5","b6","b7","b8","b9","c1","c2","c3","c4","c5","c6","c7","c8","c9","192");
+        $advertwords = array(".leet", ".com", ".ru", ".io", ".tk", ".ga", ".cz", ".co", ".co.uk", ".me", ".ml", ".cf", ".us", ".info", ".org", "leet.",".cc","a1","a2","a3","a4","a5","a6","a7","a8","a9","b1","b2","b3","b4","b5","b6","b7","b8","b9","c1","c2","c3","c4","c5","c6","c7","c8","c9","192");
 
         foreach($cursewords as $word) {
             if(strpos($msg, $word) !== false && !($player->hasPermission("unblock.cmd"))){
